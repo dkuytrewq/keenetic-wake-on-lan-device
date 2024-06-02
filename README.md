@@ -26,7 +26,11 @@
 2. **Установка:**
    - Скачайте или создайте скрипт [wol-device.sh](https://github.com/dkuytrewq/keenetic-wake-on-lan-device/blob/main/wol-device.sh) и поместите в папку `cron.hourly` по пути `/opt/etc/cron.hourly`.
   ```bash
-  wget https://raw.githubusercontent.com/dkuytrewq/keenetic-wake-on-lan-device/main/wol-device.sh
+  curl -sOfL https://raw.githubusercontent.com/dkuytrewq/keenetic-wake-on-lan-device/main/wol-device.sh
+  ```
+   - Дайте файлу права 755
+  ```bash
+  chmod 755 wol-device.sh
   ```
 
 3. **Конфигурация скрипта:**
